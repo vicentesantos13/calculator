@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="area1">
+            <div class="screen"></div>
+        </div>
+        <div class="area2">
+            <div class="buttons-container">
+
+                
+                    <div id="key7" class="number" onclick="insert('7')">7</div>
+                    <div id="key8" class="number" onclick="insert('8')">8</div>
+                    <div id="key9" class="number" onclick="insert('9')">9</div>
+                    <div id="keyC" class="function" onclick="clean()">C</div>
+                    <div id="keyAC" class="function" onclick="back()"><</div>
+                
+                    <div id="key4" class="number" onclick="insert('4')">4</div>
+                    <div id="key5" class="number" onclick="insert('5')">5</div>
+                    <div id="key6" class="number" onclick="insert('6')">6</div>
+                    <div id="keytimes" class="function" onclick="insert('*')">*</div>
+                    <div id="keydivide" class="function" onclick="insert('/')">/</div>
+                
+                    <div id="key1" class="number" onclick="insert('1')">1</div>
+                    <div id="key2" class="number" onclick="insert('2')">2</div>
+                    <div id="key3" class="number" onclick="insert('3')">3</div>
+                    <div id="keyplus" class="function" onclick="insert('+')">+</div>
+                    <div id="keyminus" class="function" onclick="insert('-')">-</div>
+                
+                    <div id="key0" class="number" onclick="insert('0')">0</div>
+                    <div id="keyponto" class="number" onclick="insert('.')">.</div>
+                    <div id="keyequal" class="function" onclick="calc()">=</div>
+                
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
